@@ -1,27 +1,26 @@
 export const resume = {
   name: "Sujal Shelke",
-  title: "Java Lead / Technical Architect",
+  title: "Lead Engineer | Technical Architect",
   location: "US-Remote",
   phone: "+1 (408) 657-0404",
   email: "sujalrmn@gmail.com",
   linkedin: "https://www.linkedin.com/in/sujal-shelke",
 
   summary:
-    "Hands-on Java Lead / Technical Architect with 20+ years of experience designing and delivering scalable cloud-native distributed systems and full-stack platforms across multi-cloud environments. Proven track record of leading distributed engineering teams (20+ engineers) and driving technical ownership from system design and architecture through production delivery. Experienced in partnering with product leaders, platform teams, and executive stakeholders to build enterprise-grade platforms using AI-assisted development tools (GitHub Copilot, Gemini, VSCode MCP) to accelerate engineering productivity. Deep expertise in Java 21, Spring Boot, Spring Security (RBAC), microservices architecture, AWS (EC2, MSK, EMR, S3), CI/CD governance, and high-availability distributed systems, with strong focus on observability and monitoring using Prometheus, Grafana, OpenTelemetry, and ELK Stack.",
+    "Hands-on Java Lead / Technical Architect with 20+ years building scalable, cloud-native microservices platforms across multi-cloud environments (AWS, GCP). Proven track record in architecture, platform and data engineering, and leading distributed teams to deliver resilient, high-throughput systems using Java, Spring Boot, Python, Spark, Kubernetes, Kafka, Terraform, and CI/CD best practices.",
 
   summaryShort:
-    "Java Lead / Technical Architect with 20+ years building scalable cloud-native systems. Leads distributed teams (20+ engineers), drives architecture through production. Expert in Java 21, Spring Boot, microservices, AWS/GCP, Kafka, Kubernetes, CI/CD. AI-assisted development (Copilot, Gemini).",
+    "AI-augmented development leader leveraging GenAI tools (GitHub Copilot, Gemini, VSCode MCP) to accelerate delivery and improve code quality; strong in multicloud platform engineering, observability, and security.",
 
   summaryBullets: [
-    "Java Lead / Technical Architect with 20+ years building scalable cloud-native systems.",
-    "Leads distributed engineering teams (20+ engineers); drives ownership from design through production.",
-    "Expert in Java 21, Spring Boot, microservices, AWS/GCP, Kafka, Kubernetes, CI/CD.",
-    "AI-assisted development (GitHub Copilot, Gemini, VSCode MCP). Observability: Prometheus, Grafana, ELK.",
+    "Lead Engineer/Technical Architect — 20+ years delivering cloud-native, multicloud (AWS/GCP) microservices platforms: Java, Spring Boot, Kubernetes, Kafka, Terraform, CI/CD, observability.",
+    "AI-augmented development & platform leadership — GenAI (Copilot, Gemini), developer productivity tooling, architecture, technical ownership, and cross-functional stakeholder partnership.",
   ],
 
   expertise: [
     "Java",
     "Spring Boot",
+    "Micronaut",
     "Microservices",
     "REST APIs",
     "Kafka",
@@ -59,13 +58,13 @@ export const resume = {
       period: "October 2023 – Feb 2026",
       project: "ATS (Available to Sell)",
       responsibilities: [
-        "Led architecture and delivery of cloud-native Spring Boot microservices platform with reactive programming, supporting high-volume enterprise applications with Kubernetes-based deployments and CI/CD automation, while migrating applications from PCF to GCP Kubernetes environments supporting HomeDepot.com availability systems.",
+        "IC for architecture and delivery of cloud-native Spring Boot/Micronaut microservices platform with reactive programming, supporting high-volume enterprise applications with Kubernetes-based deployments and CI/CD automation, while migrating applications from PCF to GCP Kubernetes environments supporting HomeDepot.com availability systems.",
         "Implemented CI/CD automation using GitHub Actions, Jenkins, and Spinnaker, enabling automated build, testing, containerization, and deployment pipelines across Dev, QA, and Production environments.",
         "Provisioned infrastructure using Terraform and CDK-based infrastructure-as-code, defining IAM policies, service configuration, and environment provisioning for secure multi-environment deployments.",
-        "Designed secure service communication architecture using Kafka with SSL encryption and implemented RBAC authorization using Spring Security, JWT, OAuth2/OIDC across distributed microservices.",
+        "Designed secure service communication using Kafka with SSL encryption and implemented RBAC authorization using Spring Security, IAP, JWT, OAuth2/OIDC across distributed microservices.",
         "Established observability and monitoring frameworks using Grafana, centralized logging, and metrics pipelines, improving operational visibility and early detection of system performance issues.",
         "Collaborated with cross-functional platform teams to implement distributed system integrations across Spanner, BigQuery, and Pub/Sub while supporting supply chain inventory availability services.",
-        "Mentored engineers and enforced engineering excellence through code reviews, CI/CD governance, deployment standards, and architectural documentation.",
+        "Enforced engineering excellence through code reviews, CI/CD governance, deployment standards, and architectural documentation.",
         "Designed observability architecture using Prometheus, Grafana, enabling real-time monitoring and troubleshooting of microservices.",
       ],
       technologies:
@@ -296,11 +295,11 @@ export const resume = {
       company: "The Home Depot",
       period: "Oct 2023 – Feb 2026",
       bullets: [
-        "Led cloud-native Spring Boot microservices on GCP/Kubernetes; CI/CD with GitHub Actions, Jenkins, Spinnaker.",
-        "Designed Kafka-based service communication, RBAC with Spring Security, JWT, OAuth2/OIDC.",
+        "IC for architecture and delivery of cloud-native Spring Boot/Micronaut microservices on GCP/Kubernetes; CI/CD with GitHub Actions, Jenkins, Spinnaker.",
+        "Designed Kafka-based service communication, RBAC with Spring Security, IAP, JWT, OAuth2/OIDC.",
         "Terraform/CDK IaC; observability with Prometheus, Grafana, ELK.",
       ],
-      tech: "Java 21, GCP, Kubernetes, Kafka, Spanner, BigQuery, Terraform",
+      tech: "AI assisted development with Java 21, GCP, Kubernetes, Kafka, Spanner, BigQuery, Terraform",
     },
     {
       role: "Senior Engineer I",
