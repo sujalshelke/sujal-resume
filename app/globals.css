@@ -1,8 +1,10 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #fff8f0;
+  --foreground: #1c1917;
+  --accent: #ea580c;
+  --accent-hover: #c2410c;
 }
 
 @theme inline {
@@ -14,13 +16,30 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #1c1917;
+    --foreground: #fafaf9;
+    --accent: #f97316;
+    --accent-hover: #fb923c;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  background-image: linear-gradient(180deg, #fff8f0 0%, #fef3e2 100%);
+  background-attachment: fixed;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-image: linear-gradient(180deg, #1c1917 0%, #292524 100%);
+  }
+}
+
+@media print {
+  body {
+    background: white;
+    background-image: none;
+  }
 }
