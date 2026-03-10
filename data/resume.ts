@@ -2,8 +2,7 @@ export const resume = {
   name: "Sujal Shelke",
   title: "Lead Engineer | Technical Architect",
   location: "US-Remote",
-  phone: "+1 (408) 657-0404",
-  email: "sujalrmn@gmail.com",
+  contact: "DM",
   linkedin: "https://www.linkedin.com/in/sujal-shelke",
 
   summary:
