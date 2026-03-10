@@ -13,7 +13,7 @@ export default function Home() {
             {resume.title}
           </p>
           <p className="text-xs text-stone-600 dark:text-stone-400 mt-2">
-            {resume.location} · {resume.phone} · {resume.email} ·{" "}
+            {resume.location} ·{" "}
             <a href={resume.linkedin} target="_blank" rel="noopener noreferrer" className="text-orange-600 dark:text-orange-400 font-medium hover:underline">
               LinkedIn
             </a>
